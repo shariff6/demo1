@@ -24,7 +24,7 @@ window.fbAsyncInit = function() {
   }
   js = d.createElement(s);
   js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js";
+  js.src = "http://connect.facebook.net/en_US/sdk.js";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 
