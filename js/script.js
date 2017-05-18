@@ -51,5 +51,4 @@ function getInfo() {
   }, function(response) {
     document.getElementById('status').innerHTML = response.first_name
   });
-
 }
